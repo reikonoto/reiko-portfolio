@@ -2,7 +2,7 @@ import "./styles.css";
 
 const projects = [
   {
-    title: "Reiko’s Violin Show",
+    title: "Neon Spotify Player",
     tech: ["React", "Hooks", "State"],
     description:
       "Audience-based UI with timed updates using React Hooks. Input size → dynamic message, emoji, and background.",
@@ -42,7 +42,7 @@ export default function App() {
               <div className="actions">
                 <a
                   className="link"
-                  href={p.demoUrl}
+                  href="https://neon-spotify-player.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -50,7 +50,7 @@ export default function App() {
                 </a>
                 <a
                   className="link"
-                  href={p.codeUrl}
+                  href="https://github.com/reikonoto/neon-spotify-player"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -66,9 +66,10 @@ export default function App() {
       <section className="section">
         <h2>About</h2>
         <p>
-          Hi, I’m Reiko — a front-end developer who loves clean UX, neon
-          aesthetics, and turning ideas into products. Currently learning React
-          deeply and building fun + practical apps.
+          Hi, I'm Reiko — a front-end developer based in Japan. I love creating
+          smooth, vibrant interfaces and playful user experiences with React &
+          JavaScript. Currently exploring UI animation, web audio, and creative
+          coding.
         </p>
       </section>
 
@@ -79,13 +80,13 @@ export default function App() {
           DM me on{" "}
           <a
             className="link"
-            href="https://github.com/YOUR_GH"
+            href="https://github.com/reikonoto"
             target="_blank"
             rel="noreferrer"
           >
             GitHub
           </a>{" "}
-          or email: <span className="mono">you@example.com</span>
+          or 📩email: <span className="mono">hello.reikonoto@gmail.com</span>
         </p>
       </section>
 
